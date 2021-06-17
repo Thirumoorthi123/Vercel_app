@@ -1,7 +1,7 @@
 import React from 'react';
 import styled from 'styled-components';
-import { DeviceList} from '../responsive';
-import { useMediaQuery} from 'react-responsive';
+// import { DeviceList} from '../responsive';
+// import { useMediaQuery} from 'react-responsive';
 
 const FooterMain = styled.div`
     width: 100%;
@@ -84,61 +84,61 @@ a{
 
 
  export function Footer(){
-    const isMobile = useMediaQuery({maxWidth : DeviceList.mobile})
+    // const isMobile = useMediaQuery({maxWidth : DeviceList.mobile})
 
     return <>
             <FooterMain>
                 <FooterOne>
                 <h5>Frameworks</h5>
                    <ul>
-                        <li><a href="">Next.js</a></li>
-                        <li><a href="">Create React App</a></li>
-                        <li><a href="">Gatsby</a></li>
-                        <li><a href="">Nuxt.js</a></li>
-                         <li><a href="">Vue</a></li>
-                         <li><a href="">Angular</a></li>
-                         <li><a href="">More Frameworks</a></li>
+                        <li><a href="www.google.com">Next.js</a></li>
+                        <li><a href="www.google.com">Create React App</a></li>
+                        <li><a href="www.google.com">Gatsby</a></li>
+                        <li><a href="www.google.com">Nuxt.js</a></li>
+                        <li><a href="www.google.com">Vue</a></li>
+                         <li><a href="www.google.com">Angular</a></li>
+                         <li><a href="www.google.com">More Frameworks</a></li>
                    </ul>
                 </FooterOne>
                 <FooterTwo>
                  <h5>Resources</h5>
                   <ul>
-                        <li><a href="">Documentation</a></li>
-                        <li><a href="">Experts</a></li>
-                        <li><a href="">Customers</a></li>
-                        <li><a href="">Guides</a></li>
-                         <li><a href="">Support</a></li>
-                         <li><a href="">API Reference</a></li>
-                         <li><a href="">OSS</a></li>
-                          <li><a href="">Command-Line</a></li>
-                         <li><a href="">Integrations</a></li>
+                        <li><a href="www.google.com">Documentation</a></li>
+                        <li><a href="www.google.com">Experts</a></li>
+                        <li><a href="www.google.com">Customers</a></li>
+                        <li><a href="www.google.com">Guides</a></li>
+                         <li><a href="www.google.com">Support</a></li>
+                         <li><a href="www.google.com">API Reference</a></li>
+                         <li><a href="www.google.com">OSS</a></li>
+                          <li><a href="www.google.com">Command-Line</a></li>
+                         <li><a href="www.google.com">Integrations</a></li>
                    </ul>
                 </FooterTwo>
                 <FooterThree>
                  <h5>Company</h5>
                  <ul>
-                        <li><a href="">Home</a></li>
-                        <li><a href="">Blog</a></li>
-                        <li><a href="">Changelog</a></li>
-                        <li><a href="">About</a></li>
-                         <li><a href="">Careers</a></li>
-                         <li><a href="">Pricing</a></li>
-                         <li><a href="">Security</a></li>
-                          <li><a href="">Next.js Conf</a></li>
-                         <li><a href="">Partners</a></li>
-                         <li><a href="">Contact Us</a></li>
+                        <li><a href="www.google.com">Home</a></li>
+                        <li><a href="www.google.com">Blog</a></li>
+                        <li><a href="www.google.com">Changelog</a></li>
+                        <li><a href="www.google.com">About</a></li>
+                         <li><a href="www.google.com">Careers</a></li>
+                         <li><a href="www.google.com">Pricing</a></li>
+                         <li><a href="www.google.com">Security</a></li>
+                          <li><a href="www.google.com">Next.js Conf</a></li>
+                         <li><a href="www.google.com">Partners</a></li>
+                         <li><a href="www.google.com">Contact Us</a></li>
                    </ul>
                 </FooterThree>
                 <FooterFour>
                  <h5>Legal</h5>
                  <ul>
-                        <li><a href="">Privacy Policy</a></li>
-                        <li><a href="">Terms of Service</a></li>
-                        <li><a href="">Trademark Policy</a></li>
-                        <li><a href="">Inactivity Policy</a></li>
-                         <li><a href="">DMCA Policy </a></li>
-                         <li><a href="">DPA</a></li>
-                         <li><a href="">SLA</a></li>
+                        <li><a href="www.google.com">Privacy Policy</a></li>
+                        <li><a href="www.google.com">Terms of Service</a></li>
+                        <li><a href="www.google.com">Trademark Policy</a></li>
+                        <li><a href="www.google.com">Inactivity Policy</a></li>
+                         <li><a href="www.google.com">DMCA Policy </a></li>
+                         <li><a href="www.google.com">DPA</a></li>
+                         <li><a href="www.google.com">SLA</a></li>
                    </ul>
                 </FooterFour>
             </FooterMain>

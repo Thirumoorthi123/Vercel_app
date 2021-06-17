@@ -1,6 +1,5 @@
 import React from 'react';
 import styled from 'styled-components';
-import VercelLogo from '../../assets/images/Logo.PNG';
 
 const LogoWrapper = styled.div`
     display: flex;

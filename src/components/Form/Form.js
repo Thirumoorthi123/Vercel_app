@@ -388,7 +388,7 @@ p {
   }
 `;
 
-const input = styled.div``;
+// const input = styled.div``;
 
 const Test = styled.div`
 @media(min-width: 768px) and (max-width: 1024px)

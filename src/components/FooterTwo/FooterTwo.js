@@ -3,7 +3,6 @@ import styled from 'styled-components';
 import Git from '../../assets/images/github.svg'
 import Twit from '../../assets/images/twitter.svg'
 import cir from '../../assets/images/circle.svg';
-import VercelLogo from '../../assets/images/Logo.PNG';
 import Light from '../../assets/images/light.PNG';
 
 
